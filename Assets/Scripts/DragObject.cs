@@ -12,5 +12,4 @@ public class DragObject : MonoBehaviour, IDragHandler
         transform.position = Camera.main.ScreenToWorldPoint(mousePos);
     }
 
-
 }
